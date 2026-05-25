@@ -2,53 +2,5 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
-.Navbar {
-  background-color: #94C885;
-  display: flex;
-  padding: 16px;
-  font-family: sans-serif;
-  color: rgb(2, 2, 2);
-}
-
-.Navbar__Link {
-  padding-right: 8px;
-}
-
-.Navbar__Items {
-  display: flex;
-}
-
-.Navbar__Items--right {
-  margin-left:auto;
-}
-
-.Navbar__Link-toggle {
-  display: none;
-}
-
-#logo{
-    height: 50px;
-}
-
-.Navbar__Link img{
-    height: 40px;
-    vertical-align: middle;
-}
-
-.Navbar__Link a{
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: black;
-    font-size: 20px;
-    vertical-align: middle; 
-}
-
-header li{
-  list-style: none;
-  text-align: center;
-    display: inline-block;
-  padding: 10px;
-}
+    
