@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.imagem_parallax{
+    background-image: url(dobra1.jpg);  
+
+    min-height: 500px;
+
+    opacity: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
