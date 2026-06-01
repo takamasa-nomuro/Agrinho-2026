@@ -1,9 +1,25 @@
+:root {
+    --cor-preto: #000;
+    --cor-branco: #FFF;
+    --cor-amarelo: #FFFF00;
+    --cor-azul: #0000ff;
+    --cor-branco-normal: #F8F5DF;
+    --cor-branco-claro: #F7F4E6;
+    --cor-marrom-normal: #503C35;
+    --cor-marrom-escuro: #4C3934;
+    --cor-preto-claro: #333;
+    --cor-bege: #dbbf9e;
+    --cor-cinza: #ECE3DA;
+    --cor-verde-claro: #c4d9a9;
 
+    --fonte-padrao: 'Lexend', sans-serif;
+    --fonte-acessivel: 'Atkinson Hyperlegible', sans-serif;
+}
 
 /*---------------cabeçalho---------------*/
 header {
-    background-color: violet
-    background-image: radial-gradient(var(red) 2px, transparent 2px);
+    background-color: var(--cor-marrom-normal);
+    background-image: radial-gradient(var(--cor-marrom-escuro) 2px, transparent 2px);
     background-size: 8px 8px;
     padding: 2rem;
     display: flex;
@@ -27,6 +43,3 @@ header {
     background-size: cover;
 }
 
-body{
-  background-color: #b72403;
-}
