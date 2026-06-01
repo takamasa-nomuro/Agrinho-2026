@@ -1,4 +1,25 @@
 
+/* wrapper */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------cabeçalho---------------*/
+header {
+    background-color: var(--cor-marrom-normal);
+    background-image: radial-gradient(var(--cor-marrom-escuro) 2px, transparent 2px);
+    background-size: 8px 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
 
 .imagem_parallax{
     background-image: url(agroboy.jpg); 
@@ -11,3 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+body{
+  background-color: #b72403;
+  
