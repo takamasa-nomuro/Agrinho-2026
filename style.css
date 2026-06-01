@@ -3,7 +3,7 @@
 /*---------------cabeçalho---------------*/
 header {
     background-color: violet
-    background-image: red 2px, transparent 2px);
+    background-image: radial-gradient(var(red) 2px, transparent 2px);
     background-size: 8px 8px;
     padding: 2rem;
     display: flex;
