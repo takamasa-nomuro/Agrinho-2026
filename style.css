@@ -1,12 +1,5 @@
 
 
-/* wrapper */
-.page-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 /*---------------cabeçalho---------------*/
 header {
     background-color: var(--cor-marrom-normal);
