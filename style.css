@@ -16,6 +16,9 @@
     --fonte-acessivel: 'Atkinson Hyperlegible', sans-serif;
 }
 
+body{
+  background-color: #2A292F;
+
 /*---------------cabeçalho---------------*/
 header {
     background-color: var(--cor-marrom-normal);
