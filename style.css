@@ -52,4 +52,9 @@ opacity: 60%;
   width: 100%;
   background-color: #f3f8f1;
 }
-
+#titulo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center; 
+}
