@@ -31,8 +31,9 @@ header {
     align-items: center;
     justify-content: space-around;
     gap: 1rem;
-    margin-top: auto;
+    margin-top: auto;}
 }
+
 
 
 .imagem_parallax{
@@ -44,5 +45,11 @@ opacity: 60%;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+#titulo{
+  height: 8em;
+  width: 100%;
+  background-color: #f3f8f1;
 }
 
