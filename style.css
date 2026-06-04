@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #2A292F;
+}
+
+.Navbar {
+  background-color: #1b5e09;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: rgb(2, 2, 2);
+}
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+#logo{
+    height: 50px;
+}
+
+.Navbar__Link img{
+    height: 40px;
+    vertical-align: middle;
+}
+
+.Navbar__Link a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    vertical-align: middle; 
+}
+header li{
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
+.imagem_parallax{
+    background-image: url(agroboy.jpg);  
+
+    min-height: 500px;
+
+    opacity: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titulo{
+  height: 4em;
+  width: 100%;
+  background-color: #ebc729;
+}
+
+#titulo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+
+
+.layoult-padrao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 32px;
+}
+
+.layoult-padrao p, .layoult-column p {
+    color: black;
+    width: 90%;
+    max-width: 48rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.title-brown {
+    font-size: 2.2rem;
+    color: rgb(255, 0, 255);
+    background-color: #1b5e09;
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+
+.img-border-brown {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 8px solid var(black);
+}
