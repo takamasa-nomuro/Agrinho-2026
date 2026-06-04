@@ -54,7 +54,7 @@ header li{
   padding: 10px;
 }
 .imagem_parallax{
-    background-image: url(image.png);
+    background-image: url(image\ copy.png);
 
     min-height: 500px;
 
