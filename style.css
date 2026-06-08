@@ -95,6 +95,7 @@ header li{
     max-width: 48rem;
     font-size: 1.6rem;
     font-weight: 500;
+    border-radius: 15px;
 }
 
 .title-text {
@@ -120,3 +121,4 @@ header li{
     border-radius: 16px;
     border: 8px solid var(black);
 }
+
