@@ -122,11 +122,15 @@ header li{
     border: 8px solid var(black);
 }
 .pizza{
+  justify-content: center;
   padding: auto;
   border-radius: 16px;
   background-color: floralwhite;
 }
 
 .main-text{
-  color: aqua;
+  color: black;
+  font-size: medium;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
