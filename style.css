@@ -124,14 +124,14 @@ header li{
 .imgt{
   display: block;
   margin: auto;
-  width: 55%;
+  width: 45%;
   border-radius: 16px;
   background-color: floralwhite;
 }
 
 .main-text{
   color: black;
-  font-size: 50%;
+  font-size: 40%;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
