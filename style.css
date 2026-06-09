@@ -121,10 +121,10 @@ header li{
     border-radius: 16px;
     border: 8px solid var(black);
 }
-.pizza{
+.imgt{
   display: block;
   margin: auto;
-  width: 30%;
+  width: 55%;
   border-radius: 16px;
   background-color: floralwhite;
 }
