@@ -56,3 +56,11 @@ header li{
 #textinho{
     background-color: aliceblue;
 }
+.text{
+    display: block;
+    margin: auto;
+    text-align: center;
+background-color: azure;
+font-size: 40%;
+font-family: 'Times New Roman', Times, serif;
+}
