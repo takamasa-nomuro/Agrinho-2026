@@ -122,7 +122,7 @@ header li{
     border: 8px solid var(black);
 }
 .pizza{
-  justify-content: center;
+  justify-content: space-around;
   padding: auto;
   border-radius: 16px;
   background-color: floralwhite;
