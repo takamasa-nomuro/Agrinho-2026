@@ -130,6 +130,9 @@ header li{
 }
 
 .main-text{
+  font-size: larger;
+  margin-top: 20%;
+  display: flexbox;
   color: black;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
