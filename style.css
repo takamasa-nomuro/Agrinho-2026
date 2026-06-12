@@ -183,3 +183,10 @@ font-family: sans-serif;
 font-weight: bold;
 font-size: 25px;
 }
+
+<!--video-->
+#video video{
+  height: 370px;
+  width: 700px;
+  border-radius: 20px;
+}
