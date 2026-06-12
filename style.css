@@ -81,8 +81,8 @@ header li{
 }
 
 
-
-.layoult-padrao,.title-brown {
+<!--base do texto-->
+.layoult-padrao {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,7 +115,6 @@ header li{
     color: rgb(255, 0, 255);
     padding: 10px 20px;
     border-radius: 16px;
-    background-color: #1b5e09;
 }
 
 <!--estilização da imagem-->
