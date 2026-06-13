@@ -58,8 +58,12 @@ header li{
 .imagem_parallax{
     background-image: url(image\ copy.png);
 
-    min-height: 500px;
+    min-height: 520px;
 
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+    height: auto;
     opacity: 90%;
     background-attachment: fixed;
     background-position: center;
@@ -71,7 +75,7 @@ header li{
 #titulo{
   height: 4em;
   width: 100%;
-  background-color: #ebc729;
+  background-color: #1b5e09;
 }
 
 #titulo{
@@ -115,10 +119,12 @@ header li{
 
 .title-brown {
     font-size: 2.2rem;
-    color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 16px;
     background-color: #1b5e09;
+    width: 550px;
+    
 }
 
          /*estilização da imagem*/
@@ -136,29 +142,45 @@ header li{
   width: 30%;
   border-radius: 16px;
   background-color: floralwhite;
+  max-width: 100%;
+  height: auto;
+
 }
+
+
 
           /*texto um*/
 
 .texto{
-  font-size: 19px;
-  margin-top: 5%;
-  display: flexbox;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0 50px;
+}
+
+.texto p {
+    width: 100%;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 /*titulo tres*/
 
 .title-blue {
+    text-align: center;
     font-size: 2.2rem;
     margin-top: 5%;
-    margin-left: 31%;
-    margin-right: 31%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 4%;
-    color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 16px;
     background-color: #1b5e09;
@@ -205,46 +227,57 @@ font-weight: bold;
 font-size: 25px;
 }
 
+
 /*titulo quatro*/
 
 .title-yellow {
+    text-align: center;
     font-size: 2.2rem;
-    color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 16px;
     background-color: #1b5e09;
     margin-top: 5%;
-    margin-left: 31%;
-    margin-right: 31%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 4%;
 }
 
             /*video*/
 
-#video video{
-  height: 370px;
-  width: 700px;
-  border-radius: 20px;
-  margin-bottom: 10%;
+#video {
+    text-align: center;
+    width: 100%;
+}
+
+#video video {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 16px;
 }
 
 
-
-
+      /*---rodapé---*/
 
 footer {
-    background-color: #000000;
-    border-top: 0.4px solid #3f3f3f;
+    background-color: #3a3a3a;
+    border-top: 0.4px solid #2e2e2e;
     background-image: repeating-linear-gradient(
         135deg,
-        #535353,
-        #2e2e2d 0.4px,
+        #0a0909,
+        #020202 0.4px,
         transparent 2px,
         transparent 10px
     );
     padding: 2rem;
     color: var(--cor-preto-claro);
     text-align: center;
+}
+
+.texto-dois {
+color: white;
+
 }
 
 footer div {
@@ -260,7 +293,7 @@ footer a {
 
 footer a:focus,
 footer a:hover {
-    color: #74664B;
+    color: #ffffff;
 }
 
 /*---------------responsividade---------------*/
