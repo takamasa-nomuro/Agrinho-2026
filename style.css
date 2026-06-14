@@ -128,6 +128,7 @@ button{
   color: black;
   width: fit-content;
   margin: 30px auto;
+  max-width: 90%;
 }
 
 #titulo{
@@ -178,6 +179,7 @@ button{
     width: 550px;
     width: fit-content;
     margin: 30px auto;
+    max-width: 90%;
 }
 
          /*estilização da imagem*/
@@ -237,7 +239,7 @@ button{
     padding: 10px 20px;
     border-radius: 16px;
     background-color: #1b5e09;
-    
+    max-width: 90%;
 }
 .title-brown {
     align-items: center;
@@ -251,7 +253,7 @@ button{
     background-color: #1b5e09;
     width: fit-content;
     margin: 30px auto;
-    
+    max-width: 90%;
 }
 
 
@@ -266,6 +268,16 @@ button{
  text-align: center;
  border-radius: 20px;
 }
+
+.card{
+    width: 100%;
+    max-width: 320px;
+    min-height: 320px;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -275,10 +287,11 @@ button{
 }
 
 #cartoes{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
 }
 
 #cartoes p{
@@ -293,21 +306,36 @@ font-weight: bold;
 font-size: 25px;
 }
 
+@media (max-width: 600px){
 
-/*titulo quatro*/
+    #cartoes p{
+        font-size: 16px;
+    }
 
-.title-yellow {
-    text-align: center;
-    font-size: 2.2rem;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border-radius: 16px;
-    background-color: #1b5e09;
-    margin-top: 5%;
-    margin-bottom: 4%;
-    width: fit-content;
-    margin: 30px auto;
-}
+    #cartoes b{
+        font-size: 20px;
+    }
+
+    .card{
+        max-width: 95%;
+    }
+    }
+
+    /*titulo quatro*/
+
+    .title-yellow {
+        text-align: center;
+        font-size: 2.2rem;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border-radius: 16px;
+        background-color: #1b5e09;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        width: fit-content;
+        margin: 30px auto;
+        max-width: 90%;
+    }
 
             /*video*/
 
