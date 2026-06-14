@@ -1,60 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>resenha</title>
+    <title>Calculadora de Pegada de Carbono</title>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="pagina-2.css">
 </head>
 <body>
-    <header>
-        <div class="Navbar">
-   <div class="Navbar__Link Navbar__Link-brand">
-      <a href="index.html"><img id="logo" src="img/logo site.png" alt=""></a>
+
+    <!--calculadora de carbono-->
+
+<div class="container">
+    <h1>🌱 Calculadora de Pegada de Carbono</h1>
+
+    <label for="carro">Km percorridos de carro por mês:</label>
+    <input type="number" id="carro" placeholder="Ex: 500">
+
+    <label for="energia">Consumo de energia (kWh/mês):</label>
+    <input type="number" id="energia" placeholder="Ex: 200">
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div class="resultado">
+        <h2>Resultado</h2>
+        <p id="co2">CO₂ emitido: 0 kg</p>
+        <p id="arvores">Árvores necessárias: 0</p>
     </div>
-  <nav class="Navbar__Items">
-    <div class="Navbar__Link">
-      
-    <ul>
-    </div>
-    <div class="Navbar__Link">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="pagina-2.html">Pagina da resenha</a></li>
-    
-    </div>
-    
-    </ul>
-  </nav>
-  <nav class="Navbar__Items Navbar__Items--right">
-    <div class="Navbar__Link">
-      <a href="https://www.sistemafaep.org.br/agrinho/">Agrinho</a>
-    </div>
-    <div class="Navbar__Link">
-      <a href="#contato"><img src="img/chat.png" alt=""></a>
-    </div>
-  </nav>
 </div>
-</header>
-<main>
-   
-<button class="botaocor" onclick="mudaCor()">Muda Cor</button>
 
-<script>
-  function mudaCor() {
-    document.body.classList.toggle("modo-escuro");
-  }
-</script>
-
-  <div class="text">
-        <p>
-            bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla  bla bla bla bla 
-        </p>
-    </div>
-</main>
-    
-    
-    
-    
+       <a href="index.html" class="voltar">Voltar para a Página Principal</a>
 
 
 </body>

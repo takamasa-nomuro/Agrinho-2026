@@ -1,82 +1,85 @@
+/*etrutura basica*/
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
+
 body{
-  background-color: #fff;
-  color: #000;
-    transition: 0.3s;
+    background:#2A292F;
+    font-family:Arial, sans-serif;
+    color:white;
 }
-.modo-escuro {
-    background-color: #2A292F;
-    color: #FFF;
-  }
-.botaocor{
-    position: fixed;
-bottom: 20px;
-left: 20px;
+
+.container{
+    width:90%;
+    max-width:600px;
+    margin:50px auto;
+    padding:30px;
+    background:#1b5e09;
+    border-radius:20px;
+    text-align:center;
 }
+
+  /*textos*/
+
+h1{
+    margin-bottom:20px;
+}
+
+ /*botões*/
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
 button{
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: WHITE;
-    border: black solid 2px;
-    border-radius: 5px;
-    z-index: 9999;
-}
-.Navbar {
-  background-color: #1b5e09;
-  display: flex;
-  padding: 16px;
-  font-family: sans-serif;
-  color: rgb(2, 2, 2);
-}
-.Navbar__Link {
-  padding-right: 8px;
+    margin-top:15px;
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    background:#ebc729;
+    font-weight:bold;
+    cursor:pointer;
 }
 
-.Navbar__Items {
-  display: flex;
+button:hover{
+    transform:scale(1.05);
 }
 
-.Navbar__Items--right {
-  margin-left:auto;
+  /*resultado da conta*/
+
+.resultado{
+    margin-top:25px;
+    padding:20px;
+    background:#3d3d3d;
+    border-radius:15px;
 }
 
-.Navbar__Link-toggle {
-  display: none;
-}
+  /* botão de volta*/
 
-#logo{
-    height: 50px;
-}
-
-.Navbar__Link img{
-    height: 40px;
-    vertical-align: middle;
-}
-
-.Navbar__Link a{
+.voltar{
+    position: fixed;
+    font-size: 14px;
+    top: 20px;
+    left: 20px;
+    padding: 12px 20px;
+    background-color: #ebc729;
+    color: black;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    vertical-align: middle; 
-}
-header li{
-  list-style: none;
-  text-align: center;
-  display: inline-block;
-  padding: 10px;
-}
-.text{
-    display: block;
-    margin: auto;
-    text-align: center;
-background-color: azure;
-font-family: 'Times New Roman', Times, serif;
-padding: 15px, 100px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
 }
