@@ -17,7 +17,7 @@ Java: parte visual, funcionamento de botões e contas
 Acesse o link disponibilizado na seção About deste repositório.
 
 # Créditos
-- Tema base no [Regulamento Oficial do Concurso Agrinho 2026]
+- Tema base no Regulamento Oficial do Concurso Agrinho 2026
 
 - Elementos e ícones cridos no [Canva.com](https://www.canva.com/pt_pt), baseados em modelos da internet.
 
