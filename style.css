@@ -10,7 +10,7 @@ body{
     transition: 0.3s;
 }
 
- /*botão cor*/
+    /*botão cor*/
 
 .modo-escuro {
     background-color: #2A292F;
@@ -28,7 +28,7 @@ button{
         font-size: 14px;
     }
 
-/*cabeçalho*/
+    /*cabeçalho*/
 
 .Navbar {
    background-color: #1b5e09;
