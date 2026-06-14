@@ -353,13 +353,68 @@ font-size: 25px;
 
  /*flip-card*/
 
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  max-width: 450px;
+  height: 225px;
+  perspective: 1000px;
+  margin: 20px auto;
+  margin-bottom: 7%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
 
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
 
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
 
 
+.flip-card-front {
+  background-color: #18171B;
+  color: black;
+  border-radius: 20px;
+}
 
+
+.flip-card-back {
+  background-color: #94C885;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}
+
+.flip-card-back p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.flip-card-back h1{
+  color: white;
+}
+
+.flip-card-front img{
+  height: 225px;
+
+}
 
       /*---rodapé---*/
 
