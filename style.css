@@ -16,20 +16,7 @@ body{
 .botaocor{
     position: fixed;
 bottom: 20px;
-left: 20px;
-}
-button{
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: WHITE;
-    border: black solid 2px;
-    border-radius: 5px;
-    z-index: 9999;
-}
-
-
-
+left: 20px;}
           /*cabeçalho*/
 
 .Navbar {
@@ -74,7 +61,15 @@ header li{
   display: inline-block;
   padding: 10px;
 }
-
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: WHITE;
+    border: black solid 2px;
+    border-radius: 5px;
+    z-index: 9999;
+}
            /*parallax*/
 
 .imagem_parallax{
@@ -98,6 +93,7 @@ header li{
   height: 4em;
   width: 100%;
   background-color: #1b5e09;
+  color: black;
 }
 
 #titulo{
@@ -176,7 +172,6 @@ header li{
 .texto{
     font-size: 22px;
     margin-top: 5%;
-    color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 
@@ -191,11 +186,26 @@ header li{
     width: 100%;
     overflow-wrap: break-word;
     white-space: normal;
+    margin-bottom: 5%;
 }
 
 /*titulo tres*/
 
 .title-blue {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 4%;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 16px;
+    background-color: #1b5e09;
+    
+}
+.title-brown {
+    align-items: center;
     text-align: center;
     font-size: 2.2rem;
     margin-top: 5%;
@@ -217,7 +227,6 @@ header li{
  margin: 2rem;
  width: 20em;
  height: 20em;
- color: #fff;
  box-shadow: 0 0 20px rgba(93, 93, 93, 0.2);
  text-align: center;
  border-radius: 20px;
@@ -298,8 +307,7 @@ footer {
 }
 
 .texto-dois {
-color: white;
-
+color:#FFF;
 }
 
 footer div {
