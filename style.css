@@ -94,6 +94,8 @@ button{
   width: 100%;
   background-color: #1b5e09;
   color: black;
+  width: fit-content;
+  margin: 30px auto;
 }
 
 #titulo{
@@ -142,7 +144,8 @@ button{
     border-radius: 16px;
     background-color: #1b5e09;
     width: 550px;
-    
+    width: fit-content;
+    margin: 30px auto;
 }
 
          /*estilização da imagem*/
@@ -195,8 +198,8 @@ button{
     text-align: center;
     font-size: 2.2rem;
     margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: fit-content;
+    margin: 30px auto;
     margin-bottom: 4%;
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -209,13 +212,13 @@ button{
     text-align: center;
     font-size: 2.2rem;
     margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
     margin-bottom: 4%;
     color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 16px;
     background-color: #1b5e09;
+    width: fit-content;
+    margin: 30px auto;
     
 }
 
@@ -269,9 +272,9 @@ font-size: 25px;
     border-radius: 16px;
     background-color: #1b5e09;
     margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
     margin-bottom: 4%;
+    width: fit-content;
+    margin: 30px auto;
 }
 
             /*video*/
@@ -287,6 +290,15 @@ font-size: 25px;
     border-radius: 20px;
     margin-bottom: 10%;
 }
+
+
+
+
+
+
+
+
+
 
 
       /*---rodapé---*/
